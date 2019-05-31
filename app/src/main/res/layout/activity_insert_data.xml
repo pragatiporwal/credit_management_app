@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/ori"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".insertData">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register User"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/etname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/etemail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Credit"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColorHint="@color/colorAccent"
+        android:id="@+id/etcredit"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btnadd"/>
+</LinearLayout>

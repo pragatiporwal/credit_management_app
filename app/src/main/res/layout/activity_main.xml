@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit Management APP"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PEOPLE"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/btnadd"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        ></View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANSFER CREDIT"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/btntransfer"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        ></View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="VIEW"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/btnview"/>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ori"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+
+ android:orientation="vertical"
+    tools:context=".transferCredit">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll">
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select user to transfer credit"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        />
+    <EditText
+        android:id="@+id/etcredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="credit"
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:text="Send"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20dp"/>
+
+
+
+</LinearLayout>
